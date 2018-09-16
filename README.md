@@ -16,4 +16,15 @@
 	```
 	git clone https://github.com/loumonts/health-disparities.git
 	```
-- Test
+
+- Open Eclipse
+
+- Import the repository on Eclipse
+
+![alt text](import.jpeg)
+
+- Open the file `Application` at `health-disparities/src/com/healthdisparities`
+
+- Run the application
+
+- Specify the data required (age, gender, ethnicity) and the program will inform you the results.

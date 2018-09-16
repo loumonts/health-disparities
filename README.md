@@ -22,8 +22,15 @@
 - Import the repository on Eclipse
 
 ![alt text](import.jpeg)
+![alt text](import2.jpeg)
+
+
 
 - Open the file `Application` at `health-disparities/src/com/healthdisparities`
+
+![alt text](open.jpeg)
+
+
 
 - Run the application
 

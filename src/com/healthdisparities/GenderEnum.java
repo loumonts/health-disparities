@@ -13,7 +13,7 @@ public enum GenderEnum {
 	
 	public static GenderEnum getByInitial(String initial) {
 		for (GenderEnum gender : GenderEnum.values()) {
-			if(gender.getInitial().equals(initial)) {
+			if(gender.getInitial().equalsIgnoreCase(initial)) {
 				return gender;
 			}
 		}

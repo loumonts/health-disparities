@@ -12,35 +12,26 @@ public enum EthnicityEnum {
 	
 	
 	private EthnicityEnum (int number, String ethnicity) {
-		
 		setNumber(number);
 		setEthnicity(ethnicity);
-		
 	}
 
 	private void setEthnicity(String ethnicity2) {
 		this.ethnicity = ethnicity2;
-		
-		
 	}
 
 	private void setNumber(int number2) {
 	    this.number = number2;
-	    
-	    
-		
 	}
 	
 	public static EthnicityEnum getbyNumber (int number) {
 		for (EthnicityEnum ethnicity : EthnicityEnum.values()) {
 			if (ethnicity.number == number) {
 				return ethnicity; 
-				
 			}
 		}
 		
 		return null; 
-		
 	}
 	
 	@Override
@@ -48,6 +39,4 @@ public enum EthnicityEnum {
 		return ethnicity; 
 
 	}
-	
-	
 }

@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Health Disparities is an open source tool focused on describing racial disparities in health. 
+
 ## How to run
 
 ### Prerequisites

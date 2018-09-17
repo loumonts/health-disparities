@@ -33,9 +33,17 @@ public class Application {
 	private static List<Disease> getAllDiseases() {
 		List<Disease> diseases = new ArrayList<>();
 		
-		diseases.add(new Disease("Stroke", 40, Arrays.asList(MALE, FEMALE), Arrays.asList(WHITE)));
+		diseases.add(new Disease("Stroke", 55, Arrays.asList(MALE, FEMALE), Arrays.asList(AFRICAN_AMERICAN)));
 		diseases.add(new Disease("Diabetes", 13, Arrays.asList(MALE, FEMALE), Arrays.asList(HISPANIC, AMERICAN_INDIAN)));
-		
+		diseases.add(new Disease("Breast Cancer", 40, Arrays.asList(FEMALE), Arrays.asList(WHITE, AFRICAN_AMERICAN)));
+		diseases.add(new Disease("Lung and Bronchus Cancer", 70, Arrays.asList(MALE, FEMALE), Arrays.asList(WHITE, AFRICAN_AMERICAN)));
+		diseases.add(new Disease("Colorectal Cancer", 72, Arrays.asList(MALE), Arrays.asList(AFRICAN_AMERICAN)));
+		diseases.add(new Disease("Colorectal Cancer", 68, Arrays.asList(MALE), Arrays.asList(AMERICAN_INDIAN, WHITE)));
+		diseases.add(new Disease("Melanoma of the Skin", 63, Arrays.asList(MALE, FEMALE), Arrays.asList(WHITE)));
+		diseases.add(new Disease("Bladder Cancer", 55, Arrays.asList(FEMALE, MALE), Arrays.asList(WHITE)));
+		diseases.add(new Disease("Prostate Cancer", 65, Arrays.asList(MALE), Arrays.asList(AFRICAN_AMERICAN)));
+		diseases.add(new Disease("Acute Lymphocytic Leukemia", 2, Arrays.asList(FEMALE, MALE), Arrays.asList(HISPANIC, WHITE)));
+	
 		return diseases;
 	}
 	
